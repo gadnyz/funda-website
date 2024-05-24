@@ -5,13 +5,18 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>SoftLand Bootstrap Template - Index</title>
+  <title>Funda</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -42,19 +47,20 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1><a href="index.html">SoftLand</a></h1>
+        <img src="assets/img/android-chrome-192x192.png" alt="">
+        <!-- <h1><a href="index.html">Funda</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active " href="index.html">Home</a></li>
-          <li><a href="features.html">Features</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
+          <li><a class=""  href="#hero">Apropos</a></li>
+          <li><a href="#Conferences">Conférences</a></li> 
+          <li><a href="#Mentorat">Mentorat</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> 
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a> -->
+            <!-- <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
@@ -69,8 +75,8 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
-          <li><a href="contact.html">Contact Us</a></li>
+          </li> -->
+          <li><a href="#contact">Nous contacter</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -97,15 +103,15 @@
       <div class="row align-items-center">
         <div class="col-12 hero-text-image">
           <div class="row">
-            <div class="col-lg-8 text-center text-lg-start">
-              <h1 data-aos="fade-right">Promote Your App with SoftLand</h1>
-              <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit.</p>
-              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#" class="btn btn-outline-white">Get started</a></p>
+            <div class="col-lg-6 text-center text-lg-start">
+              <h1 data-aos="fade-right">Funda, <span> la nouvelle façon d'apprendre</span></h1>
+              <p class="mb-5" data-aos="fade-right" data-aos-delay="100">
+              Profitez de sessions gratuites en ligne pour maîtriser les compétences numériques dont vous avez besoin.</p>
+              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#mentorat" class="btn btn-outline-white">Decouvrir nos programmes de mentorat</a></p>
             </div>
-            <div class="col-lg-4 iphone-wrap">
-              <img src="assets/img/phone_1.png" alt="Image" class="phone-1" data-aos="fade-right">
-              <img src="assets/img/phone_2.png" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
+            <div class="col-lg-6 iphone-wrap">
+              <img src="assets/img/undraw_svg_2.svg" alt="Image" class="phone-1" data-aos="fade-right">
+              <!-- <img src="assets/img/phone_2.png" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200"> -->
             </div>
           </div>
         </div>
@@ -119,55 +125,36 @@
     <!-- ======= Home Section ======= -->
     <section class="section">
       <div class="container">
-
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-5" data-aos="fade-up">
-            <h2 class="section-heading">Save your time to using SoftLand</h2>
-          </div>
-        </div>
-
         <div class="row">
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
             <div class="feature-1 text-center">
               <div class="wrap-icon icon-1">
-                <i class="bi bi-people"></i>
+                <i class="bi bi-bar-chart-steps"></i>
               </div>
-              <h3 class="mb-3">Explore Your Team</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <h3 class="mb-3">Flexibilité et Accessibilité</h3>
+              <p>Apprenez où et quand vous le souhaitez, sans contraintes de déplacement</p>
             </div>
           </div>
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
             <div class="feature-1 text-center">
               <div class="wrap-icon icon-1">
-                <i class="bi bi-brightness-high"></i>
+                <i class="bi bi-journals"></i>
               </div>
-              <h3 class="mb-3">Digital Whiteboard</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <h3 class="mb-3">Support Personnalisé</h3>
+              <p>Bénéficiez d'un accompagnement sur mesure, adapté à vos besoins spécifiques.</p>
             </div>
           </div>
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
             <div class="feature-1 text-center">
               <div class="wrap-icon icon-1">
-                <i class="bi bi-bar-chart"></i>
+                <i class="bi bi-people"></i>
               </div>
-              <h3 class="mb-3">Design To Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+              <h3 class="mb-3">Motivation et Responsabilisation</h3>
+              <p>Restez motivé et engagé grâce au soutien continu d'un mentor expérimenté.</p>
             </div>
           </div>
         </div>
-
-      </div>
-    </section>
-
-    <section class="section">
-
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5" data-aos="fade">
-          <div class="col-md-6 mb-5">
-            <img src="assets/img/undraw_svg_1.svg" alt="Image" class="img-fluid">
-          </div>
-        </div>
-
+<!-- 
         <div class="row">
           <div class="col-md-4">
             <div class="step">
@@ -190,165 +177,194 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
             </div>
           </div>
-        </div>
-      </div>
-
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-4 me-auto">
-            <h2 class="mb-4">Seamlessly Communicate</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio,
-              laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt
-              dolore mollitia esse natus beatae.</p>
-            <p><a href="#" class="btn btn-primary">Download Now</a></p>
-          </div>
-          <div class="col-md-6" data-aos="fade-left">
-            <img src="assets/img/undraw_svg_2.svg" alt="Image" class="img-fluid">
-          </div>
-        </div>
+        </div> -->
       </div>
     </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-4 ms-auto order-2">
-            <h2 class="mb-4">Gather Feedback</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio,
-              laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt
-              dolore mollitia esse natus beatae.</p>
-            <p><a href="#" class="btn btn-primary">Download Now</a></p>
-          </div>
-          <div class="col-md-6" data-aos="fade-right">
-            <img src="assets/img/undraw_svg_3.svg" alt="Image" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======= Testimonials Section ======= -->
-    <section class="section border-top border-bottom">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-4">
-            <h2 class="section-heading">Review From Our Users</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center text-center">
-          <div class="col-md-7">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="review text-center">
-                    <p class="stars">
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill muted"></span>
-                    </p>
-                    <h3>Excellent App!</h3>
-                    <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
-                    </blockquote>
-
-                    <p class="review-user">
-                      <img src="assets/img/person_1.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                      <span class="d-block">
-                        <span class="text-black">Jean Doe</span>, &mdash; App User
-                      </span>
-                    </p>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="review text-center">
-                    <p class="stars">
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill muted"></span>
-                    </p>
-                    <h3>This App is easy to use!</h3>
-                    <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
-                    </blockquote>
-
-                    <p class="review-user">
-                      <img src="assets/img/person_2.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                      <span class="d-block">
-                        <span class="text-black">Johan Smith</span>, &mdash; App User
-                      </span>
-                    </p>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="review text-center">
-                    <p class="stars">
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill muted"></span>
-                    </p>
-                    <h3>Awesome functionality!</h3>
-                    <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
-                    </blockquote>
-
-                    <p class="review-user">
-                      <img src="assets/img/person_3.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                      <span class="d-block">
-                        <span class="text-black">Jean Thunberg</span>, &mdash; App User
-                      </span>
-                    </p>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= CTA Section ======= -->
+        <!-- ======= CTA Section ======= -->
     <section class="section cta-section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 me-auto text-center text-md-start mb-5 mb-md-0">
-            <h2>Starts Publishing Your Apps</h2>
+            <h2><span>Decouvrez </span>  toutes nos vidéos </h2>
           </div>
           <div class="col-md-5 text-center text-md-end">
-            <p><a href="#" class="btn d-inline-flex align-items-center"><i class="bx bxl-apple"></i><span>App store</span></a> <a href="#" class="btn d-inline-flex align-items-center"><i class="bx bxl-play-store"></i><span>Google play</span></a></p>
+            <p><a href="https://www.youtube.com/@Fundaonlinecd" class="btn d-inline-flex align-items-center"><i class="bx bxl-youtube"></i><span>Funda-online</span></a></p>
           </div>
         </div>
       </div>
     </section><!-- End CTA Section -->
+
+    <section class="section" id="Conferences">
+      <div class="container">
+
+        <div class="row justify-content-center text-center">
+          <div class="col-md-7 mb-5">
+            <h2 class="section-heading"><span>Nos</span>  conférences</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illum obcaecati inventore velit laborum earum.</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="pricing h-100 text-center">
+              <span>&nbsp;</span>
+              <h3>Basic</h3>
+              <ul class="list-unstyled">
+                <li>Create up to 5 forms</li>
+                <li>Generate 100 monthly reports</li>
+              </ul>
+              <div class="price-cta">
+                <strong class="price">Free</strong>
+                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+              </div>
+            </div>
+          </div>
+       
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="pricing h-100 text-center">
+              <span class="popularity">Best Value</span>
+              <h3>Ultimate</h3>
+              <ul class="list-unstyled">
+                <li>Create up to 20 forms</li>
+                <li>Generate 2500 monthly reports</li>
+                <li>Manage a team of up to 5 people</li>
+              </ul>
+              <div class="price-cta">
+                <strong class="price">$199.95/month</strong>
+                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="pricing h-100 text-center popular">
+              <span class="popularity">Most Popular</span>
+              <h3>Professional</h3>
+              <ul class="list-unstyled">
+                <li>Create up to 20 forms</li>
+                <li>Generate 2500 monthly reports</li>
+                <li>Manage a team of up to 5 people</li>
+              </ul>
+              <div class="price-cta">
+                <strong class="price">$9.95/month</strong>
+                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="mentorat">
+      <div class="container">
+      <div class="row justify-content-center text-center">
+          <div class="col-md-7 mb-5">
+            <h2 class="section-heading"><span>Nos programmes</span>  de mentorat</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illum obcaecati inventore velit laborum earum.</p>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_1.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_2.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_3.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_4.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_3.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_2.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <span class="p-3 active text-primary">1</span>
+            <a href="#" class="p-3">2</a>
+            <a href="#" class="p-3">3</a>
+            <a href="#" class="p-3">4</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer class="footer" role="contentinfo">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-md-4 mb-4 mb-md-0">
           <h3>About SoftLand</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam aperiam
@@ -389,19 +405,13 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="row justify-content-center text-center">
         <div class="col-md-7">
-          <p class="copyright">&copy; Copyright SoftLand. All Rights Reserved</p>
+          <p class="copyright">&copy; Copyright Funda. All Rights Reserved</p>
           <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=SoftLand
-          -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="https://funda-online.com/">funda</a>
           </div>
         </div>
       </div>

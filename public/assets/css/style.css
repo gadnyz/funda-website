@@ -1,10 +1,3 @@
-/**
-* Template Name: SoftLand
-* Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -344,6 +337,10 @@ section {
   margin-right: 5px;
   font-size: 24px;
   line-height: 0;
+}
+
+.cta-section span{
+  font-weight: 200;
 }
 
 /* Contact Form */
@@ -861,6 +858,10 @@ section {
   bottom: -150px;
 }
 
+.hero-section span {
+  font-weight: 100;
+}
+
 @media screen and (max-width: 992px) {
   .hero-section .wave {
     bottom: -180px;
@@ -931,12 +932,12 @@ section {
 
 .hero-section .iphone-wrap .phone-2,
 .hero-section .iphone-wrap .phone-1 {
-  position: absolute;
-  top: -50%;
-  overflow: hidden;
-  left: 0;
-  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
+  /* position: absolute; */
+  /* top: -50%; */
+  /* overflow: hidden; */
+  /* left: 0; */
+  /* box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3); */
+  /* border-radius: 30px; */
 }
 
 @media screen and (max-width: 992px) {
@@ -951,19 +952,13 @@ section {
 
 .hero-section .iphone-wrap .phone-2,
 .hero-section .iphone-wrap .phone-1 {
-  width: 250px;
+  width: 800px;
 }
 
 @media screen and (max-width: 992px) {
   .hero-section .iphone-wrap .phone-1 {
-    margin-left: -150px;
+    margin-left: 80px;
   }
-}
-
-.hero-section .iphone-wrap .phone-2 {
-  margin-top: 50px;
-  margin-left: 100px;
-  width: 250px;
 }
 
 @media screen and (max-width: 992px) {
@@ -1032,4 +1027,9 @@ section {
 
 .social a i {
   line-height: 0;
+}
+
+
+.section-heading span {
+  font-weight: 200;
 }
