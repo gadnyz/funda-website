@@ -200,29 +200,29 @@
         <div class="row justify-content-center text-center">
           <div class="col-md-7 mb-5">
             <h2 class="section-heading"><span>Nos</span>  conférences</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illum obcaecati inventore velit laborum earum.</p>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illum obcaecati inventore velit laborum earum.</p> -->
           </div>
         </div>
         <div class="row align-items-stretch">
 
           <div class="col-lg-4 mb-4 mb-lg-0">
             <div class="pricing h-100 text-center">
-              <span>&nbsp;</span>
-              <h3>Basic</h3>
+            <span class="popularity">Terminée</span>
+              <h3>Roadmap : Devenir developpeur Web en 2024</h3>
               <ul class="list-unstyled">
-                <li>Create up to 5 forms</li>
-                <li>Generate 100 monthly reports</li>
+                <li>Intervenant principal : </li>
+                <li>Gad TAMBWE</li>
               </ul>
               <div class="price-cta">
-                <strong class="price">Free</strong>
-                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+                <!-- <strong class="price">29/02/2024</strong> -->
+                <!-- <p><a href="#" class="btn btn-white">S'inscrire</a></p> -->
               </div>
             </div>
           </div>
        
           <div class="col-lg-4 mb-4 mb-lg-0">
             <div class="pricing h-100 text-center">
-              <span class="popularity">Best Value</span>
+              <span class="popularity">Terminée</span>
               <h3>Ultimate</h3>
               <ul class="list-unstyled">
                 <li>Create up to 20 forms</li>
@@ -230,15 +230,15 @@
                 <li>Manage a team of up to 5 people</li>
               </ul>
               <div class="price-cta">
-                <strong class="price">$199.95/month</strong>
-                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+                <!-- <strong class="price">$199.95/month</strong> -->
+                <!-- <p><a href="#" class="btn btn-white">S'inscrire</a></p> -->
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 mb-4 mb-lg-0">
             <div class="pricing h-100 text-center popular">
-              <span class="popularity">Most Popular</span>
+              <span class="popularity">inscription en cours</span>
               <h3>Professional</h3>
               <ul class="list-unstyled">
                 <li>Create up to 20 forms</li>
@@ -247,7 +247,7 @@
               </ul>
               <div class="price-cta">
                 <strong class="price">$9.95/month</strong>
-                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+                <p><a href="#" class="btn btn-white">S'inscrire</a></p>
               </div>
             </div>
           </div>
@@ -260,7 +260,7 @@
       <div class="row justify-content-center text-center">
           <div class="col-md-7 mb-5">
             <h2 class="section-heading"><span>Nos programmes</span>  de mentorat</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illum obcaecati inventore velit laborum earum.</p>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illum obcaecati inventore velit laborum earum.</p> -->
           </div>
         </div>
 
