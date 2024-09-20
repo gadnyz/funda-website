@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: SoftLand
-Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
+Template Name: BizPage
+Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
