@@ -139,7 +139,7 @@ h6 {
 
 #header.header-scrolled {
   background: #0799ba;
-  height: 60px;
+  height: 50px;
 }
 
 #header.header-scrolled  .navbar a{
@@ -149,12 +149,7 @@ h6 {
 
 
 #header .logo {
-  /* font-size: 16px; */
-  margin: 0;
-  padding: 0;
-  /* font-family: "Montserrat", sans-serif; */
   font-weight: 200;
-  /* letter-spacing: 1px; */
   padding-left: 50px;
 }
 
@@ -165,9 +160,10 @@ h6 {
 }
 
 #header .logo img {
-  
+  border-radius: 50%; 
+  border: 2px solid white; 
+  overflow: hidden; 
   max-height: 30px;
-  border-radius: 50%;
   border-color: 2px solid white;
 }
 
@@ -406,7 +402,7 @@ h6 {
   background: #000102;
   overflow: hidden;
   position: relative;
-  background: url("../img/4.jpg") center top no-repeat fixed;
+  background: url("../img/4.webp") center top no-repeat fixed;
   background-size: cover;
 }
 
@@ -918,7 +914,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  /* background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.webp) fixed center center; */
   background-size: cover;
   padding: 60px 0;
 }

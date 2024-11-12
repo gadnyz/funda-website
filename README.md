@@ -9,4 +9,4 @@ Plateforme d'accompagnement numérique en ligne
 
 ---
 
-Juin 2024, Funda
+Novembre 2024, Funda

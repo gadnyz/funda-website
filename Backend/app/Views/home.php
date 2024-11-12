@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.webp" rel="icon">
+  <link href="assets/img/apple-touch-icon.webp" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
 
@@ -21,7 +21,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css"  rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -49,10 +49,10 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-xl-11 d-flex align-items-center justify-content-between">
           <h1 class="logo"><a href="#">
-             <img src="assets/img/logo_funda.png" alt="Funda"> Funda
+             <img src="assets/img/logo_funda.webp" width="30" heigth="30" alt="Funda"> Funda
           </a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.webp" alt="" class="img-fluid"></a>-->
 
           <nav id="navbar" class="navbar">
             <ul>
@@ -157,7 +157,7 @@
 
     <!-- ======= About Us Section ======= -->
     <section id="about">
-      <div class="container" data-aos="fade-up" id="nos_videos">
+      <div class="container" data-aos="fade-up" id="">
 
         <header class="section-header">
           <h3>Vidéos en ligne</h3>
@@ -216,7 +216,7 @@
     <section id="portfolio" class="section-bg">
       <div class="container" data-aos="fade-up">
 
-        <header class="section-header">
+        <header class="section-header" id="nos_videos">
           <h3 class="section-title">Webinaires</h3>
         </header>
 
@@ -240,7 +240,7 @@
           <div class="portfolio-wrap">
             <figure>
               <!-- <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt=""> -->
-              <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F780254347364089%2F&show_text=false&width=560&t=0" width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+              <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F780254347364089%2F&show_text=false&width=560&t=0" async width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
               <!-- <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="bi bi-plus"></i></a> -->
               <!-- <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a> -->
             </figure>
@@ -255,7 +255,7 @@
         <div class="col-lg-6 col-md-6 portfolio-item filter-programmation">
           <div class="portfolio-wrap">
             <figure>
-              <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F372429018796992%2F&show_text=false&width=560&t=0" width="100%" height="100%"  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+              <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F372429018796992%2F&show_text=false&width=560&t=0" async width="100%" height="100%"  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
             </figure>
 
             <div class="portfolio-info">
@@ -268,7 +268,7 @@
 
       <div class="col-lg-6 col-md-6 portfolio-item filter-securité">
           <div class="portfolio-wrap">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=257&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F896092105421532%2F&show_text=false&width=560&t=0" width="560" height="257" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+          <iframe src="https://www.facebook.com/plugins/video.php?height=257&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F896092105421532%2F&show_text=false&width=560&t=0" async width="560" height="257" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 
 
             <div class="portfolio-info">
@@ -295,44 +295,80 @@
           <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide">
               <a href="https://fr.khanacademy.org/" target="_blank" >
-              <img src="assets/img/clients/Khan_Academy-Logo.svg" class="img-fluid" alt="Khan_Academy-Logo">
+              <img src="assets/img/clients/Khan_Academy-Logo.svg" class="img-fluid" width="200" heigth="100"  alt="Khan_Academy-Logo">
               </a>  
             </div>
             <div class="swiper-slide">
               <a href="https://www.netacad.com/catalogs/learn" target="_blank" >
-              <img src="assets/img/clients/Cisco_Networking_Academy.png" class="img-fluid"  width="60%" alt="cisco netwaorking academy">
+              <img src="assets/img/clients/Cisco_Networking_Academy.webp" class="img-fluid"  width="120" heigth="60"  alt="cisco netwaorking academy">
               </a>  
             </div>
 
             <div class="swiper-slide">
               <a href="https://openclassrooms.com/fr/courses" target="_blank" >
-              <img src="assets/img/clients/oc_logo.png" class="img-fluid" alt="openclassroom">
+              <img src="assets/img/clients/oc_logo.webp" class="img-fluid" width="150" heigth="80"  alt="openclassroom">
               </a>  
             </div>
             
 
             <div class="swiper-slide">
               <a href="https://www.linkedin.com/learning/" target="_blank" >
-              <img src="assets/img/clients/Linkedin.svg" class="img-fluid" alt="linkedin learning">
+              <img src="assets/img/clients/Linkedin.svg" class="img-fluid" width="100" heigth="50"  alt="linkedin learning">
               </a>  
             </div>
             <div class="swiper-slide">
               <a href="https://www.coursera.org/" target="_blank" >
-                <img src="assets/img/clients/coursera-logo-full-rgb.png" class="img-fluid"  width="80%"  alt="coursera-logo" >
+                <img src="assets/img/clients/coursera-logo-full-rgb.webp" class="img-fluid"  width="100" heigth="50" alt="coursera-logo" >
               </a>  
             </div>
 
             <div class="swiper-slide">
               <a href="https://learn.microsoft.com/fr-fr/training/browse/" target="_blank" >
-                <img src="assets/img/clients/open-graph-image.png" class="img-fluid"  width="60%"  alt="Microsoft learn" >
+                <img src="assets/img/clients/open-graph-image.webp" class="img-fluid"   width="100" heigth="50"  alt="Microsoft learn" >
               </a>  
             </div>
            
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div> -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <a href="https://www.codecademy.com/learn" target="_blank" >
+              <img src="assets/img/clients/Codecademy_navy.svg" class="img-fluid" width="120" heigth="50"  alt="Codecademy_navy.svg">
+              </a>  
+            </div>
+            <div class="swiper-slide">
+              <a href="https://www.comptia.org/" target="_blank" >
+              <img src="assets/img/clients/comptia_logo.svg" class="img-fluid"  width="80" heigth="50"  alt="comptia_logo.svg">
+              </a>  
+            </div>
+
+            <div class="swiper-slide">
+              <a href="https://www.edx.org/" target="_blank" >
+              <img src="assets/img/clients/edx-logo-elm.svg" class="img-fluid" width="60" heigth="30"  alt="edx-logo-elm.svg">
+              </a>  
+            </div>
+            
+
+            <div class="swiper-slide">
+              <a href="https://www.kaggle.com/" target="_blank" >
+              <img src="assets/img/clients/kagglelogo.svg" class="img-fluid" width="60" heigth="20"  alt="kagglelogo.svg">
+              </a>  
+            </div>
+            <div class="swiper-slide">
+              <a href="https://www.udemy.com/" target="_blank" >
+                <img src="assets/img/clients/logo-udemy.svg" class="img-fluid"  width="80" heigth="40" alt="logo-udemy" >
+              </a>  
+            </div>
+
+            <div class="swiper-slide">
+              <a href="https://www.udacity.com/" target="_blank" >
+                <img src="assets/img/clients/udacity.svg" class="img-fluid"   width="100" heigth="50"  alt="udacity.svg" >
+              </a>  
+            </div>
+           
           </div>
           <div class="swiper-pagination"></div>
         </div>
