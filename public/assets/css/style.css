@@ -149,6 +149,7 @@ h6 {
 
 
 #header .logo {
+  margin: 0;
   font-weight: 200;
   padding-left: 50px;
 }
@@ -292,7 +293,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #023642;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -317,7 +318,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(26, 26, 26, 0.9);
+  background: rgba(250, 248, 248, 0.5);
   transition: 0.3s;
   z-index: 999;
 }
@@ -336,16 +337,9 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #0799ba;
   overflow-y: auto;
   transition: 0.3s;
-}
-
-.navbar-mobile a,
-.navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #333333;
 }
 
 .navbar-mobile a:hover,
@@ -368,7 +362,7 @@ h6 {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgb(255, 255, 255);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -1204,7 +1198,7 @@ section {
 /* Clients Section
 --------------------------------*/
 #clients {
-  padding: 60px 0;
+  padding: 80px 0 ;
 }
 
 #clients img {
@@ -1224,6 +1218,10 @@ section {
 #clients .swiper {
   margin-top: 30px;
   position: center;
+}
+
+.clients-slider{
+  padding: 0 0 0 2em ;
 }
 
 #clients .swiper-pagination .swiper-pagination-bullet {
