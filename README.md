@@ -5,7 +5,7 @@ Plateforme d'accompagnement numérique en ligne
 
 * Backend : Php - CodeIgniter
 
-* FrontEnd : Template [Impact](https://bootstrapMade.com)
+* FrontEnd : Template [BizPage](https://bootstrapMade.com)
 
 ---
 
