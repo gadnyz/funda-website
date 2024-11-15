@@ -4,10 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Funda - Online</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="keywords" content="Plateforme d'apprentissage en informatique, auto-apprentissage, mentorat, formations, compétences numériques, orientation, ressources en ligne.">
+  <meta property="og:title" content="Funda - Online">
+  <meta property="og:description" content="Funda guide les nouveaux apprenants en informatique, les oriente vers les meilleures formations et mentorats, et favorise l’auto-apprentissage pour acquérir des compétences numériques à leur rythme.">
+  <meta property="og:url" content="https://funda-online.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/4.webp">
+  <meta property="og:image:width" content="5373">
+  <meta property="og:image:height" content="3582">
+  <meta property="og:image:alt" content="Funda background image">
+  <meta name="description" content="Funda est une plateforme numérique dédiée à guider les nouveaux apprenants en informatique.
+              Nous simplifions votre parcours en vous orientant vers les meilleures formations et programmes de mentorat adaptés à vos besoins.
+              Funda encourage l’auto-apprentissage et vous aide à exploiter pleinement les ressources en ligne pour acquérir des compétences numériques à votre rythme.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon_io/favicon.ico" rel="icon">
@@ -16,8 +25,8 @@
   <!-- Google Fonts -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -49,7 +58,7 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-xl-11 d-flex align-items-center justify-content-between">
           <h1 class="logo"><a href="#">
-             <img src="assets/img/logo_funda.webp" width="30" heigth="30" alt="Funda"> Funda
+             <img src="assets/img/logo_funda.webp" width="30" heigth="30" alt="Funda"> FUNDA
           </a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html" class="logo"><img src="assets/img/logo.webp" alt="" class="img-fluid"></a>-->
@@ -386,14 +395,16 @@
 
         <div class="col-lg-6 col-md-6 footer-info">
             <h3>
-              <img src="assets/img/logo_funda.webp" width="30" heigth="30" alt="Funda"> Funda
+              <img src="assets/img/logo_funda.webp" width="30" heigth="30" alt="Funda"> FUNDA
             </h3>
             <p>
               <strong>
                 La nouvelle façon d'apprendre !
               </strong> 
             </p>
-            <p>Funda est une plateforme numérique dédiée à guider les nouveaux apprenants en informatique. Nous simplifions votre parcours en vous orientant vers les meilleures formations et programmes de mentorat adaptés à vos besoins. Funda encourage l’auto-apprentissage et vous aide à exploiter pleinement les ressources en ligne pour acquérir des compétences numériques à votre rythme.</p>
+            <p>Funda est une plateforme numérique dédiée à guider les nouveaux apprenants en informatique.
+              Nous simplifions votre parcours en vous orientant vers les meilleures formations et programmes de mentorat adaptés à vos besoins.
+              Funda encourage l’auto-apprentissage et vous aide à exploiter pleinement les ressources en ligne pour acquérir des compétences numériques à votre rythme.</p>
           </div>
          
           <div class="col-lg-3 col-md-6 footer-links">

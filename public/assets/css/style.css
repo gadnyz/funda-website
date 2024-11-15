@@ -139,7 +139,7 @@ h6 {
 
 #header.header-scrolled {
   background: #0799ba;
-  height: 50px;
+  height: 60px;
 }
 
 #header.header-scrolled  .navbar a{
@@ -150,8 +150,14 @@ h6 {
 
 #header .logo {
   margin: 0;
-  font-weight: 200;
   padding-left: 50px;
+
+  font-size: 14px;
+  font-weight: bold;
+  /* color: #fff; */
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
 }
 
 
@@ -770,7 +776,7 @@ section {
   padding: 60px 0 40px 0;
   position: relative;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   /* height: 100vh; */
 }
 
@@ -1232,11 +1238,11 @@ section {
 }
 
 #clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
+  width: 8px;
+  height: 8px;
+  background-color: #025c70;
   opacity: 1;
-  border: 1px solid #fff;
+  border: 1px solid #025c70;
 }
 
 #clients .swiper-pagination .swiper-pagination-bullet-active {
@@ -2194,7 +2200,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #fff;
+  color: #0799ba;
 }
 
 #footer .footer-top .footer-contact {
