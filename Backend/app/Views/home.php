@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.webp" rel="icon">
-  <link href="assets/img/apple-touch-icon.webp" rel="apple-touch-icon">
+  <link href="assets/img/favicon_io/favicon.ico" rel="icon">
+  <link href="assets/img/favicon_io/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
 
@@ -58,7 +58,9 @@
             <ul>
               <li><a class="nav-link scrollto active" href="#apropos">Apropos</a></li>
               <li><a class="nav-link scrollto" href="#nos_videos">FORMATIONS & WEBINAIRES</a></li>
-              <li><a class="nav-link scrollto" href="#apprendre_plus">Apprenez Plus</a></li>
+              <li><a class="nav-link scrollto" href="#apprendre_plus">Apprendre Plus</a></li>
+              <li><a class="nav-link scrollto" href="#footer">Nous contacter</a></li>
+
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
@@ -156,7 +158,7 @@
     <!-- End Featured Services Section -->
 
     <!-- ======= About Us Section ======= -->
-    <section id="about">
+    <section id="about" class="section-bg">
       <div class="container" data-aos="fade-up" id="">
 
         <header class="section-header">
@@ -213,82 +215,79 @@
     </section><!-- End About Us Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="section-bg">
+    <section id="portfolio" class="section-bg-funda">
       <div class="container" data-aos="fade-up">
 
-        <header class="section-header" id="nos_videos">
-          <h3 class="section-title">Webinaires</h3>
-        </header>
+          <header class="section-header" id="nos_videos">
+            <h3 class="section-title">Webinaires</h3>
+          </header>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100"">
-      <div class=" col-lg-12">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">TOUS</li>
-            <li data-filter=".filter-programmation">Programmation</li>
-            <li data-filter=".filter-reseau">Reseaux</li>
-            <li data-filter=".filter-securité">Sécurité Informatique</li>
-            <li data-filter=".filter-infographie">Intélligence Artificielle</li>
-            <li data-filter=".filter-infographie">Infographie</li>
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class=" col-lg-12">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">TOUS</li>
+                <li data-filter=".filter-programmation">Programmation</li>
+                <li data-filter=".filter-reseau">Reseaux</li>
+                <li data-filter=".filter-securite">Sécurité Informatique</li>
+                <li data-filter=".filter-infographie">Intélligence Artificielle</li>
+                <li data-filter=".filter-infographie">Infographie</li>
 
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-        <div class="col-lg-6 col-md-6 portfolio-item filter-reseau">
-          <div class="portfolio-wrap">
-            <figure>
-              <!-- <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt=""> -->
-              <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F780254347364089%2F&show_text=false&width=560&t=0" async width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-              <!-- <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="bi bi-plus"></i></a> -->
-              <!-- <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a> -->
-            </figure>
-
-            <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Réseaux Informatiques</a></h4>
-              <p>Les fondamentaux du Réseau Informatique</p>
-            </div>
+              </ul>
           </div>
         </div>
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="col-lg-6 col-md-6 portfolio-item filter-programmation">
-          <div class="portfolio-wrap">
-            <figure>
-              <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F372429018796992%2F&show_text=false&width=560&t=0" async width="100%" height="100%"  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-            </figure>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-reseau">
+              <div class="portfolio-wrap">
+                <figure>
+                  <!-- <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt=""> -->
+                  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F780254347364089%2F&show_text=false&width=560&t=0" async width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                  <!-- <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="bi bi-plus"></i></a> -->
+                  <!-- <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a> -->
+                </figure>
 
-            <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Programmation Web</a></h4>
-              <p>Présentation des projets du Programme d'Accompagnement Web</p>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html">Réseaux Informatiques</a></h4>
+                  <p>Les fondamentaux du Réseau Informatique</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-lg-6 col-md-6 portfolio-item filter-securité">
-          <div class="portfolio-wrap">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=257&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F896092105421532%2F&show_text=false&width=560&t=0" async width="560" height="257" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-programmation">
+              <div class="portfolio-wrap">
+                <figure>
+                  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F372429018796992%2F&show_text=false&width=560&t=0" async width="100%" height="100%"  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </figure>
 
-
-            <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">cybersécurité</a></h4>
-              <p>DevSecOps : Intégrer la cybersécurité dans chaque étape du Développement Logiciel</p>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html">Programmation Web</a></h4>
+                  <p>Présentation des projets du Programme d'Accompagnement Web</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-securite">
+              <div class="portfolio-wrap">
+                <figure>
+                <iframe src="https://www.facebook.com/plugins/video.php?height=257&href=https%3A%2F%2Fweb.facebook.com%2Ffunda.cd%2Fvideos%2F896092105421532%2F&show_text=false&width=560&t=0" async width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 
+                </figure>
+
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html">cybersécurité</a></h4>
+                  <p>DevSecOps : Intégrer la cybersécurité dans chaque étape du Développement Logiciel</p>
+                </div>
+              </div>
+            </div>
       </div>
     </section><!-- End Portfolio Section -->
 
                     <!-- ======= Our Clients Section ======= -->
-    <section id="clients">
+    <section id="clients" class="section-bg">
       <div class="container" data-aos="zoom-in" id="apprendre_plus">
 
         <header class="section-header">
-          <h3>Apprenez plus</h3>
+          <h3>Apprendre plus</h3>
         </header>
 
         <div class="clients-slider swiper">
@@ -374,110 +373,65 @@
         </div>
 
       </div>
-    </section><!-- End Our Clients Section -->
-    <!-- ======= Team Section ======= -->
-    <!-- <section id="team">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h3>Equipe</h3>
-        </div>
+    </section>
+  
+  </main>
 
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
         <div class="row">
 
-        <div class="col-lg-3 col-md-6">
 
-        </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/yves.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Yves NDETURUYE</h4>
-                  <span>Ingénieur Logiciel</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="col-lg-6 col-md-6 footer-info">
+            <h3>
+              <img src="assets/img/logo_funda.webp" width="30" heigth="30" alt="Funda"> Funda
+            </h3>
+            <p>
+              <strong>
+                La nouvelle façon d'apprendre !
+              </strong> 
+            </p>
+            <p>Funda est une plateforme numérique dédiée à guider les nouveaux apprenants en informatique. Nous simplifions votre parcours en vous orientant vers les meilleures formations et programmes de mentorat adaptés à vos besoins. Funda encourage l’auto-apprentissage et vous aide à exploiter pleinement les ressources en ligne pour acquérir des compétences numériques à votre rythme.</p>
+          </div>
+         
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Navigation</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#apropos">Apropos</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#nos_videos">Formations et Webinaires</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#apprendre_plus">Apprendre plus</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#footer">Nous contacter</a></li>
+            </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/gad.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Gad TAMBWE</h4>
-                  <span>Ingénieur Logiciel | Analyste des données</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Nous contacter</h4>
+            <p>
+              15, chaussée de Kasenga, Bel air, Lubumbashi, RDC <br>
+              <strong>Tel:</strong> +243 97 3900 363<br>
+              <strong>Email:</strong> info@funda-online.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://www.youtube.com/@Fundaonlinecd" class="youtube"><i class="bi bi-youtube"></i></a>
+              <a href="https://web.facebook.com/funda.cd" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://whatsapp.com/channel/0029Vaq7xx82Jl8IT3kiwg36" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.instagram.com/funda0nline/" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/fundacd/" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
-          </div>
 
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Team Section -->
-
-    <!-- ======= Contact Section ======= -->
-    
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <!-- <section id="contact" class="section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Addresse</h3>
-              <address>Lubumbashi, RDC</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="bi bi-phone"></i>
-              <h3>Téléphone</h3>
-              <p><a href="tel:+155895548855">+243 97 38 00 363</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@funda-online.com</a></p>
-            </div>
           </div>
 
         </div>
       </div>
-    </section> -->
+    </div>
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong>Funda</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-      -->
         Designed by Funda
       </div>
     </div>
